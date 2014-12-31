@@ -7,7 +7,7 @@ import sys
 #%matplotlib inline
 
 # set seed
-np.seed(111)
+np.seed(1)
 
 # Function to generate test data
 def CreateDataSet(Number=1):
@@ -38,9 +38,12 @@ def CreateDataSet(Number=1):
 
     return Output
 
-dataset = CreateDataSet(4)
+#dataset = CreateDataSet(4)
+
+dataset = []
+print (dataset)
 df = pd.DataFrame(data=dataset, columns=['欄位一','狀態','自訂欄位','StatusDate'])
-df.info()
+#df.info()
 
 # Save results to excel
 df.to_excel('Lesson3.xlsx', index=False)
