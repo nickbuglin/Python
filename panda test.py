@@ -38,9 +38,9 @@ def CreateDataSet(Number=1):
 
     return Output
 
-#dataset = CreateDataSet(4)
+dataset = CreateDataSet(4)
 
-dataset = []
+
 print (dataset)
 df = pd.DataFrame(data=dataset, columns=['欄位一','狀態','自訂欄位','StatusDate'])
 #df.info()
