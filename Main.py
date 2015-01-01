@@ -7,21 +7,68 @@ import numpy.random as np
 
 #--------------[ 全 域 初 始 化 ]------------------------------------------------------------------
 
-writer = pd.ExcelWriter('stockXls\Stock.xlsx')
-
-#--------------[ 第一段：取得基本資料intro ]-----------------------------------------------------
-
 # 偽裝為瀏覽器，所要加入的headers
 headers = {'content-type': 'text/html; charset=utf-8',
            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
+
+stocknum = '3481'
+filename = 'stockXls\\' + stocknum + '.xlsx'
+writer = pd.ExcelWriter(filename)
+
+filetwse = 'stockXls\\twse.xlsx'
+writwse = pd.ExcelWriter(filetwse)
+
+#--------------[ 取得交易所資料 - 股票清單、本益比、淨值比 ]------------------------------------------------------------------
+
 # 要解析的網站對象
-xurl = 'http://www.cnyes.com/twstock/intro/3481.htm'
+xurl = 'http://www.twse.com.tw/ch/trading/exchange/BWIBBU/BWIBBU_d.php'
+
+r = requests.get(xurl,headers=headers)
+r.encoding = 'big5'
+
+page = etree.HTML(r.text)
+ro1 =['','','','','']
+ro2 =['','','','','']
+tRx = 21
+tHx = 4
+tDx = 4
+dataset = []
+
+for j in range(5,0,-1):
+    sertxt = '//tr/th[last()-'+ str(4-tHx) +']'
+    hrefs = page.xpath(sertxt)
+    for href in hrefs:
+        ro1[tHx]=href.text
+    tHx -= 1
+
+for i in range(0,849,1):
+    for k in range(6,0,-1):
+        sertxt = '//tr['+ str(tRx) +']/td[last()-'+ str(4-tDx) +']'
+        hrefs = page.xpath(sertxt)
+        for href in hrefs:
+            ro2[tDx]=href.text
+        tDx -= 1
+    tRx += 1
+    tDx = 5
+    dset = [(ro2[0],ro2[1],ro2[2],ro2[3],ro2[4])]
+    dataset = dataset + dset
+
+df_BWIBBU = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
+df_BWIBBU.to_excel(writwse,'BWIBBU', index=False)
+
+#---------------------[ 交 易 所 檔 案 收 尾 處 理 ]-----------------------------------------------------------------
+# 儲存excel檔案
+writwse.save()
+
+#--------------[ 第一段：取得基本資料intro ]-----------------------------------------------------
+
+# 要解析的網站對象
+xurl = 'http://www.cnyes.com/twstock/intro/' + stocknum + '.htm'
 # 使用requests抓出HTML
 r = requests.get(xurl,headers=headers)
 # 轉碼為'utf-8'
 r.encoding = 'utf-8'
 
-#------------------------------------
 # 帶入lxml解析
 page = etree.HTML(r.text)
 # 初始化 ro1 list
@@ -54,18 +101,13 @@ df_instro.to_excel(writer,'intro', index=False)
 
 #---------------------[ 第二段：取得季度財務比率finratio ]---------------------------------------------------------
 
-# 偽裝為瀏覽器，所要加入的headers
-headers = {'content-type': 'text/html; charset=utf-8',
-           'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
 # 要解析的網站對象
-xurl = 'http://www.cnyes.com/twstock/finratio/3481.htm'
+xurl = 'http://www.cnyes.com/twstock/finratio/' + stocknum + '.htm'
 # 使用requests抓出HTML
 r = requests.get(xurl,headers=headers)
 # 轉碼為'utf-8'
 r.encoding = 'utf-8'
-#print (r.text)  #測試抓出來的HTML用
 
-#------------------------------
 # 帶入lxml解析
 page = etree.HTML(r.text)
 # 初始化資料
@@ -98,23 +140,17 @@ for i in range(2,44,1):
     dataset = dataset + dset
 # 資料集寫入 finratio頁籤
 df_finratio = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4],ro1[5]])
-df_finratio.info()
 df_finratio.to_excel(writer,'finratio', index=False)
 
-#---------------------[ 第二段：取得季度財務比率finratio ]---------------------------------------------------------
+#---------------------[ 第三段：取得年度財務比率 finratio2 ]---------------------------------------------------------
 
-# 偽裝為瀏覽器，所要加入的headers
-headers = {'content-type': 'text/html; charset=utf-8',
-           'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
 # 要解析的網站對象
-xurl = 'http://www.cnyes.com/twstock/finratio/3481.htm'
+xurl = 'http://www.cnyes.com/twstock/finratio/' + stocknum + '.htm'
 # 使用requests抓出HTML
 r = requests.get(xurl,headers=headers)
 # 轉碼為'utf-8'
 r.encoding = 'utf-8'
-#print (r.text)  #測試抓出來的HTML用
 
-#------------------------------
 # 帶入lxml解析
 page = etree.HTML(r.text)
 # 初始化資料
@@ -147,9 +183,46 @@ for i in range(2,46,1):
     dataset = dataset + dset
 # 資料集寫入 finratio頁籤
 df_finratio2 = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4],ro1[5]])
-df_finratio2.info()
 df_finratio2.to_excel(writer,'finratio2', index=False)
+
+#---------------------[ 第四段：取得年市場價值本益比、淨值比、最近收盤價 PE ]-----------------------------------------------------
+
+# 要解析的網站對象
+xurl = 'http://www.cnyes.com/twstock/profile/' + stocknum + '.htm'
+r = requests.get(xurl,headers=headers)
+r.encoding = 'utf-8'
+
+page = etree.HTML(r.text)
+ro1 =['','','','','']
+ro2 =['','','','','']
+tRx = 21
+tHx = 4
+tDx = 4
+dataset = []
+
+for j in range(5,0,-1):
+    sertxt = '//tr[20]/th[last()-'+ str(4-tHx) +']'
+    hrefs = page.xpath(sertxt)
+    for href in hrefs:
+        ro1[tHx]=href.text
+    tHx -= 1
+
+for i in range(0,5,1):
+    for k in range(6,0,-1):
+        sertxt = '//tr['+ str(tRx) +']/td[last()-'+ str(4-tDx) +']'
+        hrefs = page.xpath(sertxt)
+        for href in hrefs:
+            ro2[tDx]=href.text
+        tDx -= 1
+    tRx += 1
+    tDx = 5
+    dset = [(ro2[0],ro2[1],ro2[2],ro2[3],ro2[4])]
+    dataset = dataset + dset
+
+df_PE = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
+df_PE.to_excel(writer,'PE', index=False)
 
 #---------------------[ 全 域 收 尾 處 理 ]-----------------------------------------------------------------
 # 儲存excel檔案
 writer.save()
+
