@@ -1,20 +1,16 @@
-import multiprocessing
-import os, time, random
-import pandas as pd
-
-
-def work():
-    pid = multiprocessing.current_process().pid
-    print (pid)
-
-if __name__ == '__main__':
-    p = multiprocessing
-    print(p.cpu_count())
-
-    tes = pd.read_excel('stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
-    print (tes.count())
-
-    for j in tes.index:
-        lis = multiprocessing.Process(target=work)
-        lis.start()
-        lis.join()
+import multiprocessing  
+import time  
+  
+def func(msg):  
+    for i in range(3):
+        print (msg)
+        time.sleep(1)  
+  
+if __name__ == "__main__":  
+    pool = multiprocessing.Pool(processes=4)  
+    for i in range(10):
+        msg = "hello %d" %(i)  
+        pool.apply_async(func, (msg, ))  
+    pool.close()  
+    pool.join()  
+    print ("Sub-process(es) done.")
