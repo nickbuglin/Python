@@ -202,29 +202,7 @@ def pe():
     # 資料集存回EXCEL 頁籤PE
     df_PE = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
     df_PE.to_excel(writer,'PE', index=False)
-#---------------------[ def:從Yahoo finance抓取全部歷史股價 ]----------------------------------------------
-def GetHistory(ticker):
-    stock = ticker + '.TW'
-    d = datetime.now().month
-    e = datetime.now().day
-    f = datetime.now().year
-    a = d
-    b = e
-    c = f - 3650
 
-    url = "http://ichart.finance.yahoo.com/table.csv?s=" + stock + "&d=" + str(d) + "&e=" + str(e) + "&f=" + str(f) + \
-    "&g=d&a=" + str(a) + "&b=" + str(b) + "&c=" + str(c) + "&ignore=.csv"
-
-    rdata = request.urlopen(url)
-    csv = rdata.read()
-    # Save the string to a file
-    csvstr = str(csv).strip("b'")
-    lines = csvstr.split("\\n")
-    filename = 'stockXls\\' + ticker + 'his.csv'
-    f = open(filename, "w")
-    for line in lines:
-        f.write(line + "\n")
-    f.close()
 #--------------[ 全 域 初 始 化 ]------------------------------------------------------------------
 
 # 偽裝為瀏覽器，所要加入的headers

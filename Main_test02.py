@@ -3,12 +3,61 @@ import requests
 from lxml import etree
 import pandas as pd
 import time
+from urllib import request
+from datetime import datetime
 
+#--------------[ def:取得台灣交易所資料 ]---------------------------------------------------------------
+def bwibbu():
+    # 設定檔案名稱
+    filetwse = 'E:\\Users\\Nick\\stockXls\\twse.xlsx'
+    writwse = pd.ExcelWriter(filetwse)
+    # 抓取證券所 bwibbu 資料
+    # 偽裝為瀏覽器，所要加入的headers
+    headers = {'content-type': 'text/html; charset=utf-8',
+           'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
+    # 要解析的網站對象
+    xurl = 'http://www.twse.com.tw/ch/trading/exchange/BWIBBU/BWIBBU_d.php'
+    # requests取出網站HTML
+    r = requests.get(xurl,headers=headers)
+    # TWSE必須轉為Big5碼
+    r.encoding = 'big5'
+    # 初始化各變數
+    page = etree.HTML(r.text)
+    ro1 =['','','','',''] # 抬頭標題
+    ro2 =['','','','',''] # 數據內容
+    tRx = 21
+    tHx = 4
+    tDx = 4
+    dataset = []
+    # 取出標題行
+    for j in range(5,0,-1):
+        sertxt = '//tr/th[last()-'+ str(4-tHx) +']'
+        hrefs = page.xpath(sertxt)
+        for href in hrefs:
+            ro1[tHx]=href.text
+        tHx -= 1
+    # 取出數據內容
+    for i in range(0,849,1):
+        for k in range(6,0,-1):
+            sertxt = '//tr['+ str(tRx) +']/td[last()-'+ str(4-tDx) +']'
+            hrefs = page.xpath(sertxt)
+            for href in hrefs:
+                ro2[tDx]=href.text
+            tDx -= 1
+        tRx += 1
+        tDx = 5
+        dset = [(ro2[0],ro2[1],ro2[2],ro2[3],ro2[4])]
+        dataset = dataset + dset
+    # 寫入EXCEL，頁籤'BWIBBU'
+    df_BWIBBU = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
+    df_BWIBBU.to_excel(writwse,'BWIBBU', index=False)
+    # 存入excel
+    writwse.save()
+    print ('取得證券交易所資料...OK')
 
+#--------------[ def:取得鉅亨網業績資料 ]---------------------------------------------------------------
 def intro(stock):
-    starttime = time.time()
-    proc_id = multiprocessing.current_process().pid
-    filename = 'stockXls\\' + stock + '.xlsx'
+    filename = 'E:\\Users\\Nick\\stockXls\\' + stock + '.xlsx'
     writer = pd.ExcelWriter(filename)
     headers = {'content-type': 'text/html; charset=utf-8',
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
@@ -165,21 +214,51 @@ def intro(stock):
     # 資料集存回EXCEL 頁籤PE
     df_PE = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
     df_PE.to_excel(writer,'PE', index=False)
-
     writer.save()
-    endtime = time.time()
-    usetime = endtime - starttime
-    print('%s證券資料建檔...OK...%s...耗時:%s' % (stock,proc_id, usetime))
+    print('%s 業績資料建檔...OK' % (stock))
+
+#--------------[ def:下載Yahoo finance歷史價位 ]---------------------------------------------------------------
+def gethistory(stock):
+    ticker = stock + '.TW'
+    d = datetime.now().month
+    e = datetime.now().day
+    f = datetime.now().year
+    a = d
+    b = e
+    c = f - 3650
+
+    url = "http://ichart.finance.yahoo.com/table.csv?s=" + ticker + "&d=" + str(d) + "&e=" + str(e) + "&f=" + str(f) + \
+    "&g=d&a=" + str(a) + "&b=" + str(b) + "&c=" + str(c) + "&ignore=.csv"
+
+    rdata = request.urlopen(url)
+    csv = rdata.read()
+    # Save the string to a file
+    csvstr = str(csv).strip("b'")
+    lines = csvstr.split("\\n")
+    filename = 'E:\\Users\\Nick\\stockXls\\' + stock + 'his.csv'
+    f = open(filename, "w")
+    for line in lines:
+        f.write(line + "\n")
+    f.close()
+    print('取得 %s 歷史交易紀錄...OK' % (stock))
 
 if __name__ == '__main__':
-    pool = multiprocessing.Pool(processes=4)
-    tes = pd.read_excel('stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
+    start = time.time()
+    #--------------[ 取出證券所資料 ]--------------------------
+    bwibbu()
+    #--------------[ 多進程處理：抓鉅亨網資料、下載歷史股價 ]--------------------------
+    pool = multiprocessing.Pool()
+    tes = pd.read_excel('E:\\Users\\Nick\\stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
+
     for j in tes.index:
         stocknum = str(tes['證券代號'][j])
         pool.apply_async(intro,args=(stocknum,))
-
+        pool.apply_async(gethistory,args=(stocknum,))
     pool.close()
     pool.join()
+    endt = time.time()
+    uset = endt - start
+    print ('總共使用時間：%s' % (str(uset)))
     # Wait for the worker to finish
 
 
