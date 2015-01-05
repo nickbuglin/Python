@@ -3,8 +3,6 @@ import requests
 from lxml import etree
 import pandas as pd
 import time
-import matplotlib.pyplot as plt
-import numpy.random as np
 
 #--------------[ def:取得交易所資料 - 股票清單、本益比、淨值比 ]---------------------------------------------------------------
 def bwibbu():
@@ -210,6 +208,7 @@ headers = {'content-type': 'text/html; charset=utf-8',
            'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
 
 #--------------[ 取出證券所資料 ]------------------------------------------------------------------
+
 # 設定檔案名稱
 filetwse = 'stockXls\\twse.xlsx'
 writwse = pd.ExcelWriter(filetwse)
@@ -220,12 +219,14 @@ writwse.save()
 print ('取得證券交易所資料...OK')
 
 #--------------[ 取出個股資料 ]------------------------------------------------------------------
+
 # 從證券所檔案取出所有股票代號清單
 tes = pd.read_excel('stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
 # 個別依序取出個股資料
-starttime = time.time()
-for i in tes.index:
 
+start = time.time()
+for i in tes.index:
+    starttime = time.time()
     stocknum = str(tes['證券代號'][i])
     filename = 'stockXls\\' + stocknum + '.xlsx'
     writer = pd.ExcelWriter(filename)
@@ -233,12 +234,14 @@ for i in tes.index:
     finratio()
     finratio2()
     pe()
-    print('取得' + stocknum + '證券資料OK...')
+    endtime = time.time()
+    usetime = endtime - starttime
+    print('%s證券資料建檔...OK...%s' % (stocknum,usetime))
     writer.save()
 
-endtime = time.time()
-usetime = endtime - starttime
-print ('打完收工，總共使用時間：' + str(usetime))
+endt = time.time()
+uset = endt - start
+print ('總共使用時間：%s' % (str(uset)))
 
 #---------------------[ 全 域 收 尾 處 理 ]-----------------------------------------------------------------
 
