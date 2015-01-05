@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+import multiprocessing
 import requests
 from lxml import etree
 import pandas as pd
@@ -6,8 +6,15 @@ import time
 from urllib import request
 from datetime import datetime
 
-#--------------[ def:取得交易所資料 - 股票清單、本益比、淨值比 ]---------------------------------------------------------------
+#--------------[ def:取得台灣交易所資料 ]---------------------------------------------------------------
 def bwibbu():
+    # 設定檔案名稱
+    filetwse = 'E:\\Users\\Nick\\stockXls\\twse.xlsx'
+    writwse = pd.ExcelWriter(filetwse)
+    # 抓取證券所 bwibbu 資料
+    # 偽裝為瀏覽器，所要加入的headers
+    headers = {'content-type': 'text/html; charset=utf-8',
+           'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
     # 要解析的網站對象
     xurl = 'http://www.twse.com.tw/ch/trading/exchange/BWIBBU/BWIBBU_d.php'
     # requests取出網站HTML
@@ -44,10 +51,18 @@ def bwibbu():
     # 寫入EXCEL，頁籤'BWIBBU'
     df_BWIBBU = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
     df_BWIBBU.to_excel(writwse,'BWIBBU', index=False)
-#---------------------[ def:取得基本資料intro ]----------------------------------------------------------------------
-def intro():
+    # 存入excel
+    writwse.save()
+    print ('取得證券交易所資料...OK')
+
+#--------------[ def:取得鉅亨網業績資料 ]---------------------------------------------------------------
+def intro(stock):
+    filename = 'E:\\Users\\Nick\\stockXls\\' + stock + '.xlsx'
+    writer = pd.ExcelWriter(filename)
+    headers = {'content-type': 'text/html; charset=utf-8',
+        'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
     # 要解析的網站對象
-    xurl = 'http://www.cnyes.com/twstock/intro/' + stocknum + '.htm'
+    xurl = 'http://www.cnyes.com/twstock/intro/' + stock + '.htm'
     # 使用requests抓出HTML
     r = requests.get(xurl,headers=headers)
     # 轉碼為'utf-8'
@@ -81,10 +96,9 @@ def intro():
     # 資料集寫入 intro頁籤
     df_instro = pd.DataFrame(data=dataset, columns=['公司簡稱','董事長','上市日期','資本額','發行股數'])
     df_instro.to_excel(writer,'intro', index=False)
-#----------------------------[ def:取得季度財務比率finratio ]---------------------------------------------------------
-def finratio():
+    #-----------------------------------------------
     # 要解析的網站對象
-    xurl = 'http://www.cnyes.com/twstock/finratio/' + stocknum + '.htm'
+    xurl = 'http://www.cnyes.com/twstock/finratio/' + stock + '.htm'
     # 使用requests抓出HTML
     r = requests.get(xurl,headers=headers)
     # 轉碼為'utf-8'
@@ -122,10 +136,9 @@ def finratio():
     # 資料集寫入 finratio頁籤
     df_finratio = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4],ro1[5]])
     df_finratio.to_excel(writer,'finratio', index=False)
-#--------------------------[ def:取得年度財務比率 finratio2 ]---------------------------------------------------------
-def finratio2():
+    #-----------------------------------------
     # 要解析的網站對象
-    xurl = 'http://www.cnyes.com/twstock/finratio2/' + stocknum + '.htm'
+    xurl = 'http://www.cnyes.com/twstock/finratio2/' + stock + '.htm'
     # 使用requests抓出HTML
     r = requests.get(xurl,headers=headers)
     # 轉碼為'utf-8'
@@ -163,10 +176,9 @@ def finratio2():
     # 資料集寫入 finratio頁籤
     df_finratio2 = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4],ro1[5]])
     df_finratio2.to_excel(writer,'finratio2', index=False)
-#---------------------[ def:取得年市場價值本益比、淨值比、最近收盤價 PE ]----------------------------------------------
-def pe():
+    #-----------------------------------------------------
     # 要解析的網站對象
-    xurl = 'http://www.cnyes.com/twstock/profile/' + stocknum + '.htm'
+    xurl = 'http://www.cnyes.com/twstock/profile/' + stock + '.htm'
     # requests取出HTMl
     r = requests.get(xurl,headers=headers)
     # 編碼為 UTF-8
@@ -202,48 +214,49 @@ def pe():
     # 資料集存回EXCEL 頁籤PE
     df_PE = pd.DataFrame(data=dataset, columns=[ro1[0],ro1[1],ro1[2],ro1[3],ro1[4]])
     df_PE.to_excel(writer,'PE', index=False)
-
-#--------------[ 全 域 初 始 化 ]------------------------------------------------------------------
-
-# 偽裝為瀏覽器，所要加入的headers
-headers = {'content-type': 'text/html; charset=utf-8',
-           'User-Agent': 'Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.64 Safari/537.11'}
-
-#--------------[ 取出證券所資料 ]------------------------------------------------------------------
-
-# 設定檔案名稱
-filetwse = 'stockXls\\twse.xlsx'
-writwse = pd.ExcelWriter(filetwse)
-# 抓取證券所 bwibbu 資料
-bwibbu()
-# 存入excel
-writwse.save()
-print ('取得證券交易所資料...OK')
-
-#--------------[ 取出個股資料 ]------------------------------------------------------------------
-
-# 從證券所檔案取出所有股票代號清單
-tes = pd.read_excel('stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
-# 個別依序取出個股資料
-
-start = time.time()
-for i in tes.index:
-    starttime = time.time()
-    stocknum = str(tes['證券代號'][i])
-    filename = 'stockXls\\' + stocknum + '.xlsx'
-    writer = pd.ExcelWriter(filename)
-    intro()
-    finratio()
-    finratio2()
-    pe()
-    endtime = time.time()
-    usetime = endtime - starttime
-    print('%s證券資料建檔...OK...%s' % (stocknum,usetime))
     writer.save()
+    print('%s 業績資料建檔...OK' % (stock))
 
-endt = time.time()
-uset = endt - start
-print ('總共使用時間：%s' % (str(uset)))
+#--------------[ def:下載Yahoo finance歷史價位 ]---------------------------------------------------------------
+def gethistory(stock):
+    ticker = stock + '.TW'
+    d = datetime.now().month
+    e = datetime.now().day
+    f = datetime.now().year
+    a = d
+    b = e
+    c = f - 3650
 
-#---------------------[ 全 域 收 尾 處 理 ]-----------------------------------------------------------------
+    url = "http://ichart.finance.yahoo.com/table.csv?s=" + ticker + "&d=" + str(d) + "&e=" + str(e) + "&f=" + str(f) + \
+    "&g=d&a=" + str(a) + "&b=" + str(b) + "&c=" + str(c) + "&ignore=.csv"
+
+    rdata = request.urlopen(url)
+    csv = rdata.read()
+    # Save the string to a file
+    csvstr = str(csv).strip("b'")
+    lines = csvstr.split("\\n")
+    filename = 'E:\\Users\\Nick\\stockXls\\' + stock + 'his.csv'
+    f = open(filename, "w")
+    for line in lines:
+        f.write(line + "\n")
+    f.close()
+    print('取得 %s 歷史交易紀錄...OK' % (stock))
+
+if __name__ == '__main__':
+    start = time.time()
+    #--------------[ 取出證券所資料 ]--------------------------
+    bwibbu()
+    #--------------[ 多進程處理：抓鉅亨網資料、下載歷史股價 ]--------------------------
+    pool = multiprocessing.Pool(processes=4)
+    tes = pd.read_excel('E:\\Users\\Nick\\stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
+    for j in tes.index:
+        stocknum = str(tes['證券代號'][j])
+        pool.apply_async(intro,args=(stocknum,))
+        pool.apply_async(gethistory,args=(stocknum,))
+    pool.close()
+    pool.join()
+    endt = time.time()
+    uset = endt - start
+    print ('總共使用時間：%s' % (str(uset)))
+    # Wait for the worker to finish
 

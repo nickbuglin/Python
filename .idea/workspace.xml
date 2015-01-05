@@ -2,857 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e41bb32a-081d-4861-ba7c-b102f20f2add" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1104.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1108.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1109.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1110.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1201.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1203.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1210.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1213.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1215.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1216.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1217.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1218.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1219.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1220.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1225.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1227.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1229.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1231.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1232.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1233.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1234.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1235.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1236.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1262.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1301.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1303.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1304.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1305.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1307.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1308.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1309.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1310.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1312.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1313.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1314.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1315.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1316.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1319.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1321.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1323.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1324.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1325.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1326.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1337.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1338.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1339.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1340.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1402.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1409.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1410.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1413.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1414.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1416.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1417.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1418.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1419.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1423.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1432.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1434.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1435.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1436.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1437.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1438.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1439.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1440.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1441.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1442.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1443.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1444.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1445.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1446.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1447.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1449.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1451.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1452.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1453.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1454.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1455.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1456.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1457.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1459.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1460.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1463.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1464.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1465.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1466.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1467.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1468.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1469.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1470.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1471.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1472.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1473.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1474.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1475.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1476.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1477.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1503.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1504.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1506.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1507.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1512.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1513.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1514.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1515.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1516.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1517.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1519.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1521.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1522.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1524.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1525.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1526.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1527.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1528.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1529.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1530.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1531.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1532.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1533.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1535.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1536.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1537.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1538.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1539.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1540.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1541.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1558.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1560.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1568.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1582.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1583.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1589.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1590.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1592.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1603.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1604.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1605.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1608.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1609.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1611.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1612.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1613.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1614.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1615.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1616.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1617.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1618.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1626.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1701.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1702.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1704.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1707.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1708.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1709.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1710.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1711.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1712.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1713.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1714.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1715.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1717.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1718.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1720.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1721.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1722.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1723.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1724.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1725.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1726.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1727.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1729.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1730.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1731.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1732.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1733.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1734.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1735.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1736.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1737.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1762.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1773.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1783.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1786.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1789.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1802.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1805.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1806.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1808.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1809.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1810.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1817.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1902.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1903.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1904.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1905.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1906.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1907.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\1909.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2002.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2006.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2007.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2008.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2009.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2010.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2012.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2013.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2014.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2015.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2017.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2020.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2022.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2023.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2024.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2025.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2027.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2028.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2029.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2030.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2031.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2032.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2033.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2034.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2038.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2049.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2059.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2062.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2101.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2102.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2103.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2104.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2105.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2106.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2107.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2108.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2109.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2114.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2115.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2201.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2204.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2206.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2207.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2208.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2227.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2228.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2231.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2301.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2302.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2303.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2305.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2308.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2311.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2312.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2313.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2314.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2316.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2317.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2321.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2323.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2324.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2325.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2327.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2328.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2329.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2330.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2331.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2332.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2337.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2338.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2340.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2342.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2344.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2345.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2347.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2348.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2349.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2351.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2352.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2353.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2354.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2355.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2356.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2357.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2358.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2359.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2360.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2361.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2362.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2363.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2364.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2365.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2367.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2368.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2369.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2371.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2373.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2374.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2375.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2376.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2377.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2379.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2380.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2382.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2383.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2385.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2387.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2388.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2390.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2392.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2393.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2395.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2397.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2399.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2401.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2402.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2404.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2405.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2406.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2408.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2409.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2412.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2413.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2414.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2415.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2417.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2419.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2420.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2421.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2423.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2424.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2425.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2426.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2427.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2428.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2429.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2430.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2431.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2433.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2434.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2436.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2437.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2438.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2439.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2440.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2441.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2442.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2443.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2444.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2448.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2449.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2450.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2451.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2453.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2454.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2455.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2456.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2457.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2458.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2459.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2460.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2461.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2462.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2464.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2465.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2466.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2467.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2468.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2471.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2472.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2474.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2475.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2476.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2477.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2478.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2480.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2481.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2482.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2483.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2484.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2485.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2486.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2488.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2489.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2491.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2492.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2493.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2495.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2496.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2497.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2498.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2499.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2501.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2504.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2505.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2506.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2509.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2511.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2514.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2515.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2516.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2520.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2524.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2527.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2528.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2530.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2534.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2535.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2536.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2537.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2538.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2539.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2540.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2542.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2543.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2545.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2546.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2547.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2548.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2597.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2601.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2603.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2605.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2606.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2607.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2608.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2609.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2610.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2611.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2612.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2613.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2614.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2615.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2616.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2617.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2618.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2634.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2637.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2642.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2701.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2702.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2704.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2705.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2706.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2707.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2712.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2722.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2723.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2727.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2731.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2801.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2809.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2812.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2816.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2820.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2823.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2832.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2833.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2834.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2836.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2838.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2841.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2845.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2847.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2849.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2850.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2851.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2852.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2855.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2856.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2867.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2880.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2881.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2882.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2883.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2884.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2885.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2886.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2887.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2888.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2889.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2890.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2891.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2892.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2901.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2903.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2904.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2905.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2906.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2908.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2910.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2911.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2912.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2913.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2915.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2923.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\2929.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3002.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3003.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3004.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3005.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3006.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3008.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3010.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3011.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3013.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3014.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3015.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3016.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3017.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3018.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3019.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3021.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3022.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3023.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3024.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3025.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3026.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3027.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3028.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3029.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3030.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3031.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3032.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3033.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3034.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3035.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3036.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3037.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3038.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3040.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3041.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3042.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3043.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3044.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3045.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3046.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3047.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3048.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3049.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3050.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3051.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3052.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3054.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3055.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3056.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3057.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3058.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3059.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3060.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3062.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3090.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3094.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3130.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3149.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3164.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3167.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3189.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3209.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3229.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3231.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3257.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3266.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3296.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3305.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3308.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3311.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3312.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3315.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3338.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3356.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3376.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3380.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3383.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3406.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3419.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3432.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3437.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3443.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3450.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3454.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3474.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3481.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3481his.csv" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3494.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3501.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3504.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3514.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3515.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3518.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3519.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3532.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3533.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3535.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3536.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3545.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3550.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3557.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3559.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3561.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3573.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3576.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3579.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3583.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3584.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3588.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3591.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3593.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3596.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3598.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3605.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3607.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3617.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3622.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3645.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3653.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3661.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3665.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3669.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3673.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3679.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3682.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3686.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3694.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3698.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3701.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3702.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3703.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3704.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3705.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\3706.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4104.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4106.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4108.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4119.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4133.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4137.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4141.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4142.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4144.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4164.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4306.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4414.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4426.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4526.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4532.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4536.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4722.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4725.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4733.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4737.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4746.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4755.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4904.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4906.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4915.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4916.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4919.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4930.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4934.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4935.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4938.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4942.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4952.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4956.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4958.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4960.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4976.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4977.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4984.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4994.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\4999.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5007.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5203.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5215.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5225.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5234.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5243.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5259.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5264.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5269.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5285.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5288.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5305.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5388.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5434.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5469.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5471.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5484.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5515.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5519.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5521.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5522.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5525.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5531.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5533.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5534.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5538.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5607.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5608.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5706.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5871.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5880.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5906.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\5907.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6005.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6108.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6112.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6115.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6116.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6117.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6120.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6128.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6131.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6133.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6136.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6139.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6141.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6142.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6145.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6152.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6153.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6155.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6164.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6165.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6166.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6168.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6172.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6176.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6177.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6183.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6184.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6189.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6191.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6192.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6196.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6197.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6201.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6202.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6205.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6206.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6209.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6213.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6214.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6215.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6216.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6224.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6225.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6226.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6230.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6235.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6239.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6243.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6251.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6257.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6269.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6271.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6277.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6278.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6281.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6282.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6283.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6285.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6286.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6289.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6405.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6409.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6412.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6414.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6415.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6422.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6431.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6449.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6504.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6505.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6605.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\6702.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8011.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8016.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8021.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8033.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8039.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8046.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8070.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8072.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8081.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8101.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8103.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8105.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8110.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8112.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8114.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8131.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8150.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8163.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8201.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8210.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8213.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8215.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8249.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8261.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8271.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8374.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8404.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8411.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8422.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8427.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8429.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8443.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8454.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8926.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8940.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\8996.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9802.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9902.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9904.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9905.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9906.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9907.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9908.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9910.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9911.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9912.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9914.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9917.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9918.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9919.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9921.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9924.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9925.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9926.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9927.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9928.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9929.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9930.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9931.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9933.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9934.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9935.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9937.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9938.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9939.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9940.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9941.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9942.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9943.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9944.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9945.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9946.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9955.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\9958.xlsx" afterPath="" />
-      <change type="DELETED" beforePath="E:\Users\Nick\python\stockXls\twse.xlsx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main_test02.py" afterPath="$PROJECT_DIR$/Main_test02.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/運行時間紀錄" afterPath="$PROJECT_DIR$/運行時間紀錄" />
@@ -880,7 +29,7 @@
     <SUITE FILE_PATH="coverage/python$test_mini.coverage" NAME="test_mini Coverage Results" MODIFIED="1419959676111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Temp/xlwt3-0.1.2/tests" />
     <SUITE FILE_PATH="coverage/python$test_biff_records.coverage" NAME="test_biff_records Coverage Results" MODIFIED="1419948753057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Temp/xlwt3-0.1.2/tests" />
     <SUITE FILE_PATH="coverage/python$test_simple.coverage" NAME="test_simple Coverage Results" MODIFIED="1419949135184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Temp/xlwt3-0.1.2/tests" />
-    <SUITE FILE_PATH="coverage/python$Main_test02.coverage" NAME="Main_test02 Coverage Results" MODIFIED="1420481122529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/python$Main_test02.coverage" NAME="Main_test02 Coverage Results" MODIFIED="1420481637298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$test_biffh.coverage" NAME="test_biffh Coverage Results" MODIFIED="1419948964101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:/Temp/xlrd-0.9.3/tests" />
     <SUITE FILE_PATH="coverage/python$004.coverage" NAME="004 Coverage Results" MODIFIED="1420475484510" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python$histroy.coverage" NAME="histroy Coverage Results" MODIFIED="1419778194800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -913,27 +62,34 @@
       <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1449">
-              <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+              <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
               <folding>
-                <element signature="e#23#38#0" expanded="true" />
-                <element signature="e#279#1400#0" expanded="false" />
-                <element signature="e#1530#2606#0" expanded="false" />
-                <element signature="e#2738#3960#0" expanded="false" />
-                <element signature="e#4093#5319#0" expanded="false" />
-                <element signature="e#5434#6550#0" expanded="false" />
+                <element signature="e#0#22#0" expanded="true" />
+                <element signature="e#266#1792#0" expanded="false" />
+                <element signature="e#1912#7057#0" expanded="false" />
+                <element signature="e#7192#7886#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main_test02.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="運行時間紀錄" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/運行時間紀錄">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="616">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main_test02.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main_test02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20292208" vertical-offset="190" max-vertical-offset="903">
-              <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+              <caret line="5" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
               <folding>
-                <element signature="e#0#22#0" expanded="true" />
                 <element signature="e#266#1792#0" expanded="false" />
                 <element signature="e#1912#7057#0" expanded="false" />
                 <element signature="e#7192#7886#0" expanded="false" />
@@ -1005,9 +161,9 @@
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/004.py" />
         <option value="$PROJECT_DIR$/Main_test01.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/運行時間紀錄" />
         <option value="$PROJECT_DIR$/Main_test02.py" />
+        <option value="$PROJECT_DIR$/運行時間紀錄" />
+        <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
   </component>
@@ -1524,12 +680,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="893">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#279#1400#0" expanded="false" />
-            <element signature="e#1530#2606#0" expanded="false" />
-            <element signature="e#2738#3960#0" expanded="false" />
-            <element signature="e#4093#5319#0" expanded="false" />
-            <element signature="e#5434#6550#0" expanded="false" />
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#266#1792#0" expanded="false" />
+            <element signature="e#1912#7057#0" expanded="false" />
+            <element signature="e#7192#7886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1563,12 +717,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="893">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#279#1400#0" expanded="false" />
-            <element signature="e#1530#2606#0" expanded="false" />
-            <element signature="e#2738#3960#0" expanded="false" />
-            <element signature="e#4093#5319#0" expanded="false" />
-            <element signature="e#5434#6550#0" expanded="false" />
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#266#1792#0" expanded="false" />
+            <element signature="e#1912#7057#0" expanded="false" />
+            <element signature="e#7192#7886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1602,12 +754,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="893">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
           <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#279#1400#0" expanded="false" />
-            <element signature="e#1530#2606#0" expanded="false" />
-            <element signature="e#2738#3960#0" expanded="false" />
-            <element signature="e#4093#5319#0" expanded="false" />
-            <element signature="e#5434#6550#0" expanded="false" />
+            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#266#1792#0" expanded="false" />
+            <element signature="e#1912#7057#0" expanded="false" />
+            <element signature="e#7192#7886#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1909,39 +1059,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/運行時間紀錄">
+    <entry file="file://$PROJECT_DIR$/Main_test02.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06818182" vertical-offset="0" max-vertical-offset="616">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="882">
+          <caret line="5" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="262" selection-end-column="0" />
+          <folding>
+            <element signature="e#266#1792#0" expanded="false" />
+            <element signature="e#1912#7057#0" expanded="false" />
+            <element signature="e#7192#7886#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="833" max-vertical-offset="1449">
-          <caret line="215" column="16" selection-start-line="215" selection-start-column="16" selection-end-line="215" selection-end-column="16" />
-          <folding>
-            <element signature="e#23#38#0" expanded="true" />
-            <element signature="e#279#1400#0" expanded="false" />
-            <element signature="e#1530#2606#0" expanded="false" />
-            <element signature="e#2738#3960#0" expanded="false" />
-            <element signature="e#4093#5319#0" expanded="false" />
-            <element signature="e#5434#6550#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main_test02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20292208" vertical-offset="190" max-vertical-offset="903">
-          <caret line="242" column="40" selection-start-line="242" selection-start-column="40" selection-end-line="242" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="861">
+          <caret line="55" column="28" selection-start-line="55" selection-start-column="28" selection-end-line="55" selection-end-column="28" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
             <element signature="e#266#1792#0" expanded="false" />
             <element signature="e#1912#7057#0" expanded="false" />
             <element signature="e#7192#7886#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/運行時間紀錄">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17045455" vertical-offset="0" max-vertical-offset="616">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

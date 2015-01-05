@@ -247,9 +247,8 @@ if __name__ == '__main__':
     #--------------[ 取出證券所資料 ]--------------------------
     bwibbu()
     #--------------[ 多進程處理：抓鉅亨網資料、下載歷史股價 ]--------------------------
-    pool = multiprocessing.Pool()
+    pool = multiprocessing.Pool(processes=4)
     tes = pd.read_excel('E:\\Users\\Nick\\stockXls\\twse.xlsx', 'BWIBBU', index_col=None, parse_cols=0, na_values=['NA'])
-
     for j in tes.index:
         stocknum = str(tes['證券代號'][j])
         pool.apply_async(intro,args=(stocknum,))
